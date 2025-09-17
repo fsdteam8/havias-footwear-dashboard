@@ -432,6 +432,9 @@ export default function AddProduct() {
                         placeholder="Enter sizes here..."
                       />
                     )}
+
+
+                    
                   />
                   {form.formState.errors.size && (
                     <p className="text-red-500 text-sm">
